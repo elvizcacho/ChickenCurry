@@ -5,7 +5,7 @@ public class TernaryFun {
 
     public static void main(String[] args) {
         boolean randomBoolean = getRandomBoolean();
-        randomBoolean ? eatAKorma() : eatASaag();
+        if randomBoolean ? eatAKorma() : eatASaag();
     }
 
     private static boolean getRandomBoolean() {
